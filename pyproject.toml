@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kurs-2"
+version = "0.1.0"
+description = ""
+authors = ["JeaLousy1337 <timurka.t.r@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+setuptools = "^68.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
