@@ -17,6 +17,19 @@ def test_cm_to_inches_second_num():
     assert type(result) == Decimal
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 def test_cm_to_inches_third_num():
     digit = 10
     result = cm_to_inches(digit)
